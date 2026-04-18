@@ -223,14 +223,35 @@ aws ec2 stop-instances --instance-ids <id>
 
 ---
 
-!()[]
+# 📸 Screenshots
 
-> Add your screenshots here:
+### EC2 Instance Launch Success
 
-* EC2 Instance running
-* SSH terminal
-* Nginx installation
-* Browser output
+![EC2 instance launch success](images/ec2-instance-launch-success.png)
+
+### SSH Login to EC2
+
+![SSH login to EC2 terminal](images/ec2-ssh-login-terminal.png)
+
+### Nginx Installation
+
+![Nginx installation in terminal](images/nginx-installation-terminal.png)
+
+### Nginx Service Started and Enabled
+
+![Nginx service started and enabled in terminal](images/nginx-service-start-enable-terminal.png)
+
+### Nginx Welcome Page
+
+![Nginx welcome page in browser](images/nginx-welcome-page-browser.png)
+
+### Git, Docker, and Disk Check
+
+![Git and Docker installation with disk check](images/git-docker-install-and-disk-check-terminal.png)
+
+### Disk Usage Verification
+
+![Disk usage output using df -h](images/disk-usage-df-h-terminal.png)
 
 ---
 
