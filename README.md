@@ -105,13 +105,10 @@ To quickly assess server health without manually running multiple commands.
 linux-server-setup/
 │
 ├── README.md
-│
-├── setup/        # Server setup & package installation
-├── security/     # SSH hardening and user configuration
-├── scripts/      # Automation scripts
-├── monitoring/   # Health-check scripts
-│
-└── docs/         # Screenshots, notes, and explanations
+├── launch_EC2.md                 # Notes/steps for launching the EC2 instance
+└── scripts/
+    ├── memory_usage.sh           # Reports current memory usage
+    └── running_services.sh       # Checks status of key running services
 ```
 
 ---
@@ -162,4 +159,3 @@ Add screenshots in `docs/`:
 
 This project is not just about setting up a server—
 it’s about building the mindset of making systems **secure, repeatable, and maintainable**.
-
