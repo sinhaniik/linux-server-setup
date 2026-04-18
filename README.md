@@ -105,10 +105,18 @@ To quickly assess server health without manually running multiple commands.
 linux-server-setup/
 │
 ├── README.md
-├── launch_EC2.md                 # Notes/steps for launching the EC2 instance
+├── EC2_Nginx_Setup.md            # End-to-end EC2 and Nginx setup guide
+├── images/                       # Screenshots used in the project documentation
+│   ├── ec2-instance-launch-success.png
+│   ├── ec2-ssh-login-terminal.png
+│   ├── nginx-installation-terminal.png
+│   ├── nginx-service-start-enable-terminal.png
+│   ├── nginx-welcome-page-browser.png
+│   ├── git-docker-install-and-disk-check-terminal.png
+│   └── disk-usage-df-h-terminal.png
 └── scripts/
     ├── memory_usage.sh           # Reports current memory usage
-    └── running_services.sh       # Checks status of key running services
+    └── running_services.sh       # Checks status of running services
 ```
 
 ---
@@ -126,14 +134,19 @@ linux-server-setup/
 
 ---
 
-## 📸 Proof of Work (Optional)
+## 📸 Proof of Work
 
-Add screenshots in `docs/`:
+Screenshots for this project are stored in the `images/` folder and referenced in `EC2_Nginx_Setup.md`.
 
-* EC2 instance running
-* Security group rules
-* SSH connection
-* Nginx running in browser
+Included proof of work:
+
+* EC2 instance launch success
+* SSH login to the EC2 instance
+* Nginx installation in the terminal
+* Nginx service start and enable commands
+* Nginx welcome page in the browser
+* Git and Docker verification
+* Disk usage check using `df -h`
 
 ---
 
